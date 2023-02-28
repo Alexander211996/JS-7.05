@@ -1,0 +1,20 @@
+{
+  "name": "7-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles",
+    "cucumber": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "jest-puppeteer": "^6.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cucumber": "^6.0.7"
+  }
+}
